@@ -1,2 +1,11 @@
+# task runner dependencies
 .env
+
+# project secrets
 setup.cfg
+
+# dependencies
+node_modules
+
+# cdk cache
+cdk.out
