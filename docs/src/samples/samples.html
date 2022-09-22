@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Contributing" href="../contributing.html" /><link rel="prev" title="Lifespline AWS Samples" href="../samples.html" />
 
     <meta name="generator" content="sphinx-5.1.1, furo 2022.09.15"/>
-        <title>Deployment Dependencies - lifespline-docs 1.0.0 documentation</title>
+        <title>Deployment Dependencies - lifespline-samples-aws-deploymentDependencies 1.0.0-beta documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=9ec31e2665bf879c1d47d93a8ec4893870ee1e45" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -123,7 +123,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">lifespline-docs 1.0.0 documentation</div></a>
+      <a href="../../index.html"><div class="brand">lifespline-samples-aws-deploymentDependencies 1.0.0-beta documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -146,7 +146,7 @@
       <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
   
   
-  <span class="sidebar-brand-text">lifespline-docs 1.0.0 documentation</span>
+  <span class="sidebar-brand-text">lifespline-samples-aws-deploymentDependencies 1.0.0-beta documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
@@ -189,7 +189,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -197,6 +197,14 @@
         <article role="main">
           <section id="deployment-dependencies">
 <h1>Deployment Dependencies<a class="headerlink" href="#deployment-dependencies" title="Permalink to this heading">#</a></h1>
+<p>The deployment dependencies are to be specified with the aid of the AWS Parameter Store.</p>
+<section id="parameter-store-stack">
+<h2>Parameter Store Stack<a class="headerlink" href="#parameter-store-stack" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>name: <code class="docutils literal notranslate"><span class="pre">/cdk/deployment/dependencies</span></code></p></li>
+<li><p>description: <code class="docutils literal notranslate"><span class="pre">Deployment</span> <span class="pre">dependencies</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">CDK</span> <span class="pre">stacks</span></code></p></li>
+</ul>
+</section>
 </section>
 
         </article>
@@ -244,8 +252,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Deployment Dependencies</a><ul>
+<li><a class="reference internal" href="#parameter-store-stack">Parameter Store Stack</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
