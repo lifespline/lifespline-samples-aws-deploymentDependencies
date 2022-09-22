@@ -5,16 +5,16 @@
 
 import os
 import sys
-# samples docs
+# task runner docs
 sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'lifespline-docs'
+project = 'lifespline-samples-aws-deploymentDependencies'
 copyright = '2022, lifespline'
 author = 'lifespline'
-release = '1.0.0'
+release = '1.0.0-beta'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
