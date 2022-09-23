@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["lib/*.ts"],
+  "out": "docs/typedocs/",
+  "name": "typescript docs",
+  "tsconfig": "./tsconfig.json"
+}
