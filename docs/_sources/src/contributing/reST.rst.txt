@@ -284,17 +284,17 @@ See **cross-references**.
 Cross-Reference: Documents
 --------------------------
 
-Pointer to the ``rst`` document :doc:`docs/src/contributing/documentation.rst <documentation>`
+Pointer to the ``rst`` document :doc:`documentation.rst <documentation>`
 
 .. code::
 
     Pointer to the ``rst`` document :doc:`docs/src/contributing/documentation.rst <documentation>`
 
-Pointer to the non-``rst`` document :download:`docs/src/contributing/documentation.rst <documentation>`
+Pointer to the non-``rst`` document :download:`sphinx conf <../../conf.py>`
 
 .. code::
 
-    Pointer to the non-``rst`` document :download:`docs/src/contributing/documentation.rst <documentation>`
+    Pointer to the non-``rst`` document :download:`sphinx conf <../../conf.py>`
 
 .. _cross_reference_objects_python:
 

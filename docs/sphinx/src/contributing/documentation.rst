@@ -4,4 +4,8 @@ Documenting Your Project
 
 Your project is documented with ``sphinx``.
 
-.. include:: reST.rst
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   reST.rst
