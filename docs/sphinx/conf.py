@@ -28,7 +28,14 @@ extensions = [
 
     # test code snippets
     'sphinx.ext.doctest',
+
+    # typedoc
+    'sphinx_js'
 ]
+
+# typedoc
+js_language = 'typescript'
+js_source_path = '../../tsconfig.json'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

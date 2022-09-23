@@ -13,10 +13,11 @@ yes | sudo apt autoremove
 
 # 2 - install app dependencies
 #
-# 2.1 vscode extensions
+# 2.1 npm packages
+npm i -g typedoc jsdoc
 npm i
 
-# vscode extensions
+# 2.2 vscode extensions
 extensions=(
 
     # ts linter
@@ -27,7 +28,7 @@ for extension in "${extensions[@]}"; do
     code --install-extension "$extension" --force
 done
 
-# 2.1 python rask runner
+# 2.2 python modules
 python3 -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
