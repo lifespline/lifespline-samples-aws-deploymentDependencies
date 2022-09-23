@@ -35,7 +35,7 @@ extensions = [
 
 # typedoc
 js_language = 'typescript'
-js_source_path = '../../tsconfig.json'
+jsdoc_config_path = '../../typedoc.json'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
