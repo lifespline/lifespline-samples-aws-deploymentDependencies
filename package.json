@@ -61,6 +61,7 @@
     "deploy": "cdk deploy",
     "diff": "cdk diff",
     "cpsso": "ssocreds",
-    "docs": "npm config set script-shell \"/bin/bash\"; source .env/bin/activate; inv docs"
+    "docs": "npm config set script-shell \"/bin/bash\"; source .env/bin/activate; inv docs",
+    "typedocs": "typedoc --tsconfig tsconfig.json --out docs/typedoc/ lib/*.ts"
   }
 }
