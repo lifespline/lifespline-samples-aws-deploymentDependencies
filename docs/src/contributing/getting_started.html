@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Contributing" href="../contributing.html" /><link rel="prev" title="Lifespline AWS Samples" href="../samples.html" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Documenting Your Project" href="documentation.html" /><link rel="prev" title="Contributing" href="../contributing.html" />
 
     <meta name="generator" content="sphinx-5.1.1, furo 2022.09.15"/>
-        <title>Deployment Dependencies - lifespline-samples-aws-deploymentDependencies 1.0.0-beta documentation</title>
+        <title>Getting Started With CDK - lifespline-samples-aws-deploymentDependencies 1.0.0-beta documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?digest=9ec31e2665bf879c1d47d93a8ec4893870ee1e45" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?digest=30d1aed668e5c3a91c3e3bf6a60b675221979f0e" />
@@ -134,7 +134,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -157,14 +157,14 @@
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../about.html">About</a></li>
-<li class="toctree-l1 current has-children"><a class="reference internal" href="../samples.html">Lifespline AWS Samples</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Deployment Dependencies</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../samples.html">Lifespline AWS Samples</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../samples/samples.html">Deployment Dependencies</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../contributing.html">Contributing</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../contributing/getting_started.html">Getting Started With CDK</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contributing/documentation.html">Documenting Your Project</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../contributing/documentation.html#rst-syntax">RST Syntax</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../contributing.html">Contributing</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Getting Started With CDK</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documentation.html">Documenting Your Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documentation.html#rst-syntax">RST Syntax</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../literature.html">Literature</a></li>
@@ -195,22 +195,14 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="deployment-dependencies">
-<h1>Deployment Dependencies<a class="headerlink" href="#deployment-dependencies" title="Permalink to this heading">#</a></h1>
-<p>The deployment dependencies are to be specified with the aid of the AWS Parameter Store.</p>
-<section id="parameter-store-stack">
-<h2>Parameter Store Stack<a class="headerlink" href="#parameter-store-stack" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p>name: <code class="docutils literal notranslate"><span class="pre">/cdk/deployment/dependencies</span></code></p></li>
-<li><p>description: <code class="docutils literal notranslate"><span class="pre">Deployment</span> <span class="pre">dependencies</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">CDK</span> <span class="pre">stacks</span></code></p></li>
-</ul>
-</section>
+          <section id="getting-started-with-cdk">
+<h1>Getting Started With CDK<a class="headerlink" href="#getting-started-with-cdk" title="Permalink to this heading">#</a></h1>
 </section>
 
         </article>
@@ -218,23 +210,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../contributing.html">
+          <a class="next-page" href="documentation.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Contributing</div>
+                <div class="title">Documenting Your Project</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../samples.html">
+          <a class="prev-page" href="../contributing.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Lifespline AWS Samples</div>
+                <div class="title">Contributing</div>
                 
               </div>
             </a>
@@ -258,27 +250,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">Deployment Dependencies</a><ul>
-<li><a class="reference internal" href="#parameter-store-stack">Parameter Store Stack</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>
