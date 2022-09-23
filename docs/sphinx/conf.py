@@ -35,6 +35,7 @@ extensions = [
 
 # typedoc
 js_language = 'typescript'
+js_source_path = '../../lib/*.ts'
 jsdoc_config_path = '../../typedoc.json'
 
 templates_path = ['_templates']
